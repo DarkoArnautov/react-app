@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: url(/assets/fonts/SF-Pro-Display-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: url(/assets/fonts/SF-Pro-Display-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url(/assets/fonts/SF-Pro-Display-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Calluna Regular";
+  src: url(/assets/fonts/Calluna-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Calluna Bold";
+  src: url(/assets/fonts/Calluna-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Compact Text SemiBold";
+  src: url(/assets/fonts/SFCompactText-Semibold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Text Regular";
+  src: url(/assets/fonts/SF-Pro-Text-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Text Bold";
+  src: url(/assets/fonts/SF-Pro-Text-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "SF Compact Display Regular";
+  src: url(/assets/fonts/SFCompactDisplay-Regular.otf) format("opentype");
+}
+
+$color-white: #fbf7f0;
+$color-about: #f3ecdf;
+$content-min-height: 650px;
+
+@media only screen and (max-width: 1052px) {
+	.content-container {
+		width: calc(100%-20px);
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media only screen and (min-width: 1052px) {
+	.content-container {
+		width: 1032px;
+	}
+}
+
+.btn-icon {
+  cursor: pointer;
+}
+
+.btn-icon:hover {
+  fill: black !important;
+}
+
+.btn-icon-active {
+  fill: black !important;
+}

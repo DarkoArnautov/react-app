@@ -1,0 +1,32 @@
+@import '../../../common.scss';
+
+.page-filter {
+	min-height: $content-min-height;
+	
+	.content {
+		.tags {
+			width: 100%;
+			padding: 40px 0 28px 0;
+			display: inline-block;
+
+			.tag {
+				float: left;
+				background: white;
+				border: 1px solid #d6d6d6;
+				border-radius: 3px;
+				padding: 6px 18px 5px 19px;
+				font-family: 'SF Pro Display Medium';
+				font-size: 14px;
+				line-height: 24px;
+				color: #757575;
+				margin-right: 9px;
+				margin-bottom: 9px;
+				cursor: pointer;
+
+				&:hover {
+					background: #f1f1f1;
+				}
+			}
+		}
+	}
+}

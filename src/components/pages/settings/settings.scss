@@ -1,0 +1,167 @@
+@import '../../../common.scss';
+
+.settings {
+	.title {
+		padding-bottom: 35px;
+		border: 1px solid #d6d6d6;
+		border-width: 0 0 1px 0;
+
+		span {
+			font-family: 'SF Pro Display Medium';
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.075em;
+			text-transform: uppercase;
+			color: #757575;
+		}
+	}
+
+	.content {
+		.section {
+			width: 100%;
+			border: 1px solid #d6d6d6;
+			border-width: 0 0 1px 0;
+			padding: 39px 0 32px 0;
+
+			.section-title {
+				span {
+					font-family: 'SF Pro Display Bold';
+					font-size: 18px;
+					letter-spacing: -0.01em;
+				}
+			}
+
+			p {
+				font-family: 'SF Pro Text Regular';
+				font-size: 16px;
+				line-height: 31px;
+			}
+
+			.email-row {
+				.email-label {
+					float: left;
+					padding-top: 5px;
+					width: calc(100% - 100px);
+					span {
+						font-family: 'SF Pro Text Regular';
+						font-size: 16px;
+						line-height: 31px;
+					}
+				}
+			}
+
+			.email-notification {
+				button {
+					border: 1px solid #d9d9d9;
+					background: white;
+					font-family: 'SF Pro Text Regular';
+					font-size: 12.01px;
+					line-height: 23.01px;
+					color: #767676;
+					width: 36px;
+					height: 28px;
+				}
+
+				.on {
+					border-top-left-radius: 4px;
+					border-bottom-left-radius: 4px;
+				}
+
+				.off {
+					border-top-right-radius: 4px;
+					border-bottom-right-radius: 4px;
+				}
+
+				.active {
+					background: #3f8540 !important;
+					color: white !important;
+					border: 0 !important;
+				}
+			}
+
+			.link span {
+				font-family: 'SF Pro Text Regular';
+				font-size: 16px;
+				line-height: 31px;
+				color: #3f8540;
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.deactive-modal {
+	padding: 13px 90px;
+
+	p {
+		font-family: 'SF Pro Display Regular';
+		font-size: 16px;
+		line-height: 30px;
+		letter-spacing: 0.01em;
+		color: #111111;
+	}
+
+	.confirm-deactive {
+		width: 150px;
+		height: 45px;
+		font-family: 'SF Compact Display Regular';
+		font-size: 15px;
+		line-height: 18.5px;
+		color: white;
+		background: #ff3b30;
+		border: 0;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+
+	.cancel-deactive {
+		font-family: 'SF Compact Display Regular';
+		font-size: 15px;
+		line-height: 23px;
+		color: #007aff;
+		cursor: pointer;
+	}
+}
+
+.account-delete-modal {
+	padding: 13px 36px;
+
+	p {
+		font-family: 'SF Pro Display Regular';
+		font-size: 16px;
+		line-height: 30px;
+		letter-spacing: 0.01em;
+		color: #111111;
+	}
+
+	.contract-email {
+		width: 338px;
+		height: 25px;
+		border: 1px solid #d6d6d6;
+		border-radius: 3px;
+		background: white;
+		padding: 5px;
+	}
+
+	.confirm-account-delete {
+		width: 150px;
+		height: 45px;
+		font-family: 'SF Compact Display Regular';
+		font-size: 15px;
+		line-height: 18.5px;
+		color: white;
+		background: #ff3b30;
+		border: 0;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+
+	.cancel-account-delete {
+		font-family: 'SF Compact Display Regular';
+		font-size: 15px;
+		line-height: 23px;
+		color: #007aff;
+		cursor: pointer;
+	}
+}

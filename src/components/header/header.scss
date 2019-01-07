@@ -1,0 +1,106 @@
+@import '../../common.scss';
+
+$search-wid: 220px;
+
+.header-back {
+	width: 100%;
+	height: 82px;
+	border: 1px solid #d6d6d6;
+	border-width: 0 0 1px 0;
+	background: #f3ecdf;
+
+	.logo {
+		padding-top: 24px;
+		float: left;
+		width: 30px;
+
+		img {
+			width: 27px;
+			height: 35px;
+		}
+	}
+
+	.header-action {
+		padding-top: 23px;
+		width: 100%;
+
+		.actions {
+			float: right;
+			margin-left: 36px;
+
+			svg {
+				margin-top: 4px;
+				float: left;
+			}
+
+			@keyframes search-ani-show {
+			  from {width: 0px;}
+			  to {width: $search-wid;}
+			}
+
+			input {
+				width: $search-wid;
+				height: 37px;
+				border: 0;
+				background: #fbf7f0;
+				margin-left: 11px;
+				padding: 0 12px;
+				animation-name: search-ani-show;
+  				animation-duration: 1s;
+
+				&::placeholder {
+					font-family: 'SF Pro Display Medium';
+					font-size: 14px;
+					line-height: 36px;
+				}
+			}
+
+			.hide {
+  				display: none;
+			}
+
+			.sub-menu {
+				position: absolute;
+
+				@keyframes user-menu-ani-show {
+				  from {height: 0px;}
+				  to {height: 143px;}
+				}
+
+				.user-menu{
+					position: absolute;
+					border: 1px solid #d6d6d6;
+					border-radius: 5px;
+					background: white;
+					list-style: none;
+					top: 40px;
+					right: -32px;
+					padding: 20px 0;
+					text-align: left;
+					width: 232px;
+					margin: 0;
+					animation-name: user-menu-ani-show;
+  					animation-duration: 0.5s;
+
+					li {
+						padding: 0 20px;
+						cursor: pointer;
+						
+						a {
+							font-family: 'SF Pro Display Medium';
+							font-size: 14px;
+							line-height: 36px;
+							color: #757575;
+							text-decoration: none;
+							padding: 0;
+						}
+
+						&:hover {
+							background: #e4e4e4;
+						}
+					}
+				}
+			}
+		}
+	}
+}

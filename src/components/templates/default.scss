@@ -1,0 +1,25 @@
+@import '../../common.scss';
+
+@media only screen and (max-width: 1052px) {
+  .page-container {
+    width: calc(100%-20px);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 1052px) {
+  .page-container {
+    width: 700px;
+  }
+}
+
+.tertius-main-page {
+	width: 100%;
+	background: #fbf7f0;
+
+	.page-container {
+		padding-top: 66px;
+		padding-bottom: 66px;
+	}
+}

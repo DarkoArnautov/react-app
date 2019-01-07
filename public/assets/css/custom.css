@@ -1,0 +1,312 @@
+@font-face {
+  font-family: "MazdaType-Regular";
+  src: url(../fonts/MazdaType-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MazdaType-Bold";
+  src: url(../fonts/MazdaType-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "MazdaType-Medium";
+  src: url(../fonts/MazdaType-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "MinionPro-Regular";
+  src: url(../fonts/MinionPro-Regular.otf) format("opentype");
+}
+
+body {
+	background-color: rgb(34, 34, 34);
+	margin: 0;
+}
+
+header {
+	background-color: black;
+	width: 100%;
+	height: 123px;
+}
+
+.con {
+	width: 100%;
+}
+
+@media only screen and (max-width: 930px) {
+	.main-container{
+		width: 100%;
+	}
+
+	div.main-nav{
+		position: absolute;
+	    width: 27.95%;
+	    top: 87px;
+	}
+}
+
+@media only screen and (min-width: 930px) {
+	.main-container{
+		width: 930px;
+	}
+
+	div.main-nav{
+		position: absolute;
+	    width: 261px;
+	    top: 87px;
+	}
+}
+
+
+.logo {
+	padding-top: 16.356px !important; 
+	padding-left: 79.82px !important;
+}
+
+.logo img {
+	width: 64.68px; 
+	height: 59.703px;
+}
+
+.userinfo {
+	width: 225px; 
+	padding-top: 44px;
+}
+
+.userinfo span {
+	font-family: 'MazdaType-Bold'; 
+	font-size: 16pt; 
+	color: rgb(230, 231, 232);
+}
+
+div.navigation {
+	width: 27.95%; 
+	float: left; 
+	margin-top: -36px;
+}
+
+div.content {
+	width: 72.05%; 
+	float: left;
+	padding: 7px 85px 7px 18px;
+}
+
+.back {
+	position: relative;
+	z-index: -999;
+}
+
+.back img {
+	position: absolute;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity: 0.15;
+	top: 0; 
+	left: 0;
+	width: 100%; 
+	height: 500px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	font-family: 'MazdaType-medium';
+	font-size: 13px;
+	color: #929292;
+	text-align: right;
+	padding: 8px 15px;
+	cursor: pointer;
+	border-radius: 1px;
+	letter-spacing: 1.5px;
+	line-height: 15.6pt;
+}
+
+ul li.information {
+	background: rgb(41, 41, 42);
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+ul li.gallery {
+	background: rgb(56, 55, 57);
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+ul li.information:hover {
+	background: rgb(46, 46, 47);
+}
+
+ul li.gallery:hover {
+	background: rgb(61, 60, 62);
+}
+
+ul li.information:active {
+	background: rgb(36, 36, 37);
+}
+
+ul li.gallery:active {
+	background: rgb(51, 50, 52);
+}
+
+ul li.nactive {
+	color: white;
+}
+
+div.left-list {
+	padding: 30px 15px;
+}
+
+div.left-list p{
+	color: rgb(230, 231, 232);
+	font-size: 12px;
+	font-family: 'MazdaType-Regular';
+	font-weight: normal;
+	letter-spacing: 0.2px;
+	line-height: 14.4px;
+}
+
+.carousel-indicators {
+	top: 150px !important;
+}
+
+.carousel-indicators li {
+	width: 120px !important;
+	background: white !important;
+}
+
+.carousel-indicators li.active {
+	background: #30a0db !important;
+}
+
+.font-regular {
+	font-family: 'MazdaType-Regular';
+}
+
+.font-medium {
+	font-family: 'MazdaType-Medium';
+}
+
+.font-bold {
+	font-family: 'MazdaType-Bold';
+}
+
+.size-small {
+	font-size: 11px;
+}
+
+.ls15 {
+	letter-spacing: 1.5px !important;
+}
+
+.size-medium {
+	font-size: 13px;
+	letter-spacing: 0.2px;
+	line-height: 15.6px;
+}
+
+.size-large {
+	font-size: 27px;
+	line-height: 32.4px;
+}
+
+.color-light {
+	color: rgb(230, 231, 232);
+}
+
+.color-medium {
+	color: rgb(210, 211, 212);
+}
+
+.color-dark {
+	color: rgb(184, 186, 187);
+}
+
+.dback {
+	background: rgb(52, 51, 53);
+	border-radius: 2.5px;
+}
+
+.title {
+ 	padding: 8px 19px;
+}
+
+.desc {
+ 	padding: 8px 19px 0 19px;
+}
+
+.flex {
+ 	display: flex;
+}
+
+.first {
+ 	margin-top: 5px;
+}
+
+.large-pan {
+ 	float: left;
+ 	width: 78%;
+}
+
+.small-pan {
+ 	float: left;
+ 	width: 22%;
+}
+
+.large-pan-1 {
+ 	float: left;
+ 	width: 85%;
+}
+
+.small-pan-1 {
+ 	float: left;
+ 	width: 15%;
+}
+
+.in-box {
+	display: -webkit-inline-box;
+}
+
+.desc1{
+	padding: 10px 19px 5px 19px;
+}
+
+.pad-top7 {
+	padding-top: 7px;
+}
+
+.foremore {
+	padding: 8px 45px;
+}
+
+div.information {
+	overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.carousel-item {
+	z-index: -1 !important;
+}

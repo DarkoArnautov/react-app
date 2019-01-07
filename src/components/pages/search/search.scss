@@ -1,0 +1,30 @@
+@import '../../../common.scss';
+
+.page-search {
+	min-height: $content-min-height;
+	
+	.content {
+		span {
+			font-family: 'SF Pro Display Medium';
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.075em;
+			color: #757575;
+			text-transform: uppercase;
+		}
+
+		input {
+			margin: 20px 0;
+			border: 1px solid #d6d6d6;
+			border-width: 0 0 1px 0;
+			background: none;
+			font-family: 'SF Pro Display Regular';
+			font-size: 40px;
+			width: -webkit-fill-available;
+
+			&:focus {
+				outline: none !important;
+			}
+		}
+	}
+}

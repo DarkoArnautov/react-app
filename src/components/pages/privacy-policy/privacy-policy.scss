@@ -1,0 +1,30 @@
+@import '../../../common.scss';
+
+.privacy-policy {
+	.title {
+		padding-bottom: 35px;
+		border: 1px solid #d6d6d6;
+		border-width: 0 0 1px 0;
+
+		span {
+			font-family: 'SF Pro Display Medium';
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.075em;
+			text-transform: uppercase;
+			color: #757575;
+		}
+	}
+
+	.content {
+		p{
+			font-family: 'SF Pro Text Regular';
+			font-size: 16px;
+			line-height: 24px;
+
+			span {
+				font-family: 'SF Pro Text Bold' !important;
+			}
+		}
+	}
+}

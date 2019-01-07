@@ -1,0 +1,62 @@
+@import '../../common.scss';
+
+.post-item {
+	.post-item-content {
+		width: 100%;
+		.citation {
+			padding-left: 24px;
+			padding-bottom: 2px;
+
+			.icon {
+				position: absolute;
+
+				svg {
+					position: absolute;
+					top: 2px;
+					left: -25px;
+				}
+			}
+
+			span {
+				font-family: 'SF Pro Display Regular';
+				font-size: 16px;
+				line-height: 24.01px;
+				letter-spacing: 0.025em;
+				color: #6d6d6d;
+			}
+		}
+
+		span.post-title {
+			font-family: 'SF Pro Display Bold';
+			font-size: 42px;
+			letter-spacing: -0.01em;
+			cursor: pointer;
+			color: #111111;
+
+			&:hover {
+				color: #666666;
+			}
+
+			&:active {
+				color: #000000;
+			}
+		}
+
+		p.post-content {
+			font-family: 'Calluna Regular';
+			font-size: 21px;
+			line-height: 31px;
+			height: 90px;
+		    overflow: hidden;
+		    display: -webkit-box;
+		    -webkit-line-clamp: 3;
+		    -webkit-box-orient: vertical;
+		}
+	}
+
+	.post-line {
+		width: 100%;
+		height: 1px;
+		background: #d6d6d6;
+	}
+}

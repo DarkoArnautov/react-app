@@ -1,0 +1,143 @@
+@import '../../../common.scss';
+
+body {
+	background: #f3ecdf;
+}
+
+.sign-page {
+
+	.sign-container {
+		width: 442px;
+
+		.logo {
+			padding-top: 57px;
+			padding-bottom: 32px;
+			display: grid;
+			img {
+				width: 49px;
+				height: 64px;
+			}
+		}
+
+		.main-block {
+			border: 1px solid #e7e3db;
+			border-radius: 4px;
+			background: #fbf7f0;
+			padding: 31px 40px 40px 40px;
+
+			.title {
+				font-family: 'SF Compact Text Semibold';
+				font-size: 14px;
+				letter-spacing: 0.025em;
+				color: #ff4500;
+				text-transform: uppercase;
+			}
+
+			p{
+				font-family: 'Calluna Regular';
+				font-size: 18px;
+				line-height: 30px;
+				color: #111111;
+				margin-top: 11px;
+				span {
+					font-family: 'Calluna Bold';
+				}
+			}
+
+			.signin-action {
+				span {
+					font-family: 'SF Pro Display Regular';
+					font-size: 14px;
+					line-height: 24px;
+					color: #897655;
+
+					a {
+						color: #038930;
+						text-decoration: none;
+					}
+				}
+			}
+
+			.signin-form {
+
+				input {
+					width: 219px;
+					height: 48px;
+					border: 1px solid #6f6d6a;
+					background: none;
+					border-width: 0 0 1px 0;
+					padding-left: 10px;
+					padding-right: 10px;
+
+					&::placeholder {
+						font-family: 'SF Compact Display Regular';
+						font-size: 15px;
+						line-height: 23px;
+						text-align: center;
+						color: #757575;
+					}
+
+					&:focus {
+						outline: none !important;
+					}
+				}
+
+				.form-action {
+					font-family: 'SF Compact Display Regular';
+					font-size: 15px;
+					line-height: 18.5px;
+					color: white;
+					background: #3c863c;
+					border: 0px;
+					border-radius: 3px;
+					width: 150px;
+					text-align: center;
+					padding: 14px 0px;
+				}
+			}
+		}
+
+		.apple {
+			padding-top: 32px;
+
+			img {
+				width: 32px;
+				height: 39px;
+			}
+
+			span {
+				font-family: 'SF Pro Text Regular';
+				font-size: 16px;
+				line-height: 30px;
+				color: #aa9c84;
+			}
+		}
+
+		.last-footer {
+			padding-top: 10px;
+
+			span {
+				font-family: 'SF Pro Display Regular';
+				font-size: 14px;
+				line-height: 18.5px;
+				letter-spacing: 0.01em;
+				color: #aa9c84;
+
+				a {
+					text-decoration: underline;
+					color: #aa9c84;
+				}
+			}
+		}
+	}
+
+	.sign-back {
+		position: absolute;
+		top: 17px;
+		left: 50px;
+		img {
+			width: 16px;
+			height: 30px;
+		}
+	}
+}

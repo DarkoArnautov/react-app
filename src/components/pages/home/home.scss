@@ -1,0 +1,261 @@
+@import '../../../common.scss';
+
+.main-container {
+	width: 100%;
+}
+
+.main-back {
+	background: $color-white;
+}
+
+.about-section {
+	background: $color-about;	
+}
+
+.home-screen {
+	.header{
+		padding-top: 14px;
+		padding-bottom: 70px;
+
+		.header-logo {
+			width: 40px;
+			float: left;
+
+			img.logo {
+				width: 32px;
+				height: 42px;
+			}
+		}
+
+		.header-action {
+			width: 100%;
+		}
+	}
+}
+
+@media only screen and (max-width: 1032px) {
+	.cover-section {
+		padding: 0 50px;
+	}
+}
+
+@media only screen and (min-width: 1032px) {
+	.cover-section {
+		padding: 0 145px;
+	}
+}
+
+.cover-section{
+	span {
+		font-family: 'SF Pro Display Bold';
+		font-size: 64px;
+		line-height: 64px;
+		letter-spacing: -0.01em;
+	}
+
+	.dot {
+		padding: 38px 0;
+	}
+
+	p {
+		font-family: 'Calluna Regular';
+		font-size: 21px;
+		line-height: 30px;
+	}
+
+	button {
+		margin: 18px 0 56px 0;
+		background: #ff4500;
+		font-family: 'SF Pro Display Bold';
+		font-size: 19px;
+		line-height: 30px;
+		color: white;
+		border: 0px;
+    	border-radius: 50px;
+    	padding: 10px 62px;
+
+	}
+}
+
+.phone-section {
+	.img-section{
+		padding: 0 35px;
+		display: grid;
+		
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@media only screen and (max-width: 1032px) {
+	.about-section {
+		padding: 40px 0 45px 0;
+
+		.about-box {
+			width: 100%;
+
+			.content {
+				padding: 0 50px 0 32px;
+			}
+		}
+
+		.special-box {
+			width: 100%;
+			.content {
+				padding: 40px 42px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1032px) {
+	.about-section {
+		padding: 80px 0 90px 0;
+		.about-box {
+			float: left;
+			width: 50%;
+			.content {
+				padding: 0 90px 0 32px
+			}
+		}
+
+		.special-box {
+			width: 100%;
+			display: table-cell;
+
+			.content {
+				padding: 8px 41px 0 15px;
+			}			
+		}
+	}
+}
+
+.about-section {
+	border: 1px solid #d6d6d6;
+	border-width: 1px 0;
+	padding: 70px 0 90px 0;
+
+	.about-box {
+		span {
+			&.title {
+				font-family: 'SF Compact Text SemiBold';
+				font-size: 14px;
+				text-transform: uppercase;
+				letter-spacing: 0.025em;
+				color: #ff4500;
+			}
+
+			&.desc {
+				font-family: 'SF Pro Text Regular';
+				font-size: 16px;
+				line-height: 30px;
+				color: #aa9c84;
+			}
+		}
+
+		p {
+			font-family: 'Calluna Regular';
+			font-size: 21px;
+			line-height: 30px;
+			color: #111111;
+		}
+	}
+
+	.special-box {
+		.special-content{
+			border: 1px solid #e7e3db;
+			border-radius: 5px;
+			background: #fbf7f0;
+			padding-top: 14px;
+			padding-bottom: 5px;
+
+			div.line {
+				width: 100%;
+				background: #d6d6d6;
+				height: 1px;
+			}
+
+			.special-item {
+				padding: 27px 0 3px 0;
+				.content {
+					padding-left: 88px;
+					padding-right: 20px;
+
+					span {
+						font-family: 'SF Pro Display Bold';
+						font-size: 18px;
+						color: #897655;
+					}
+
+					p {
+						font-family: 'SF Pro Display Regular';
+						font-size: 16px;
+						line-height: 24px;
+						color: #757575;
+					}
+				}
+				.sp-icon{
+					position: absolute;
+					svg {
+						position: absolute;
+						top: 5px;
+						left: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.subscription-section {
+	.logo {
+		padding: 78px 0 54px 0;
+	}
+
+	span {
+
+		&.title {
+			font-family: 'SF Compact Text SemiBold';
+			font-size: 14px;
+			letter-spacing: 0.025em;
+			color: #ff4500;
+			text-transform: uppercase;
+		}
+
+		&.question {
+			font-family: 'SF Pro Text Regular';
+			font-size: 16px;
+			line-height: 30px;
+			color: #777777;
+
+			a {
+				text-decoration: underline;
+				color: #777777;
+				cursor: pointer;
+			}
+		}
+	}
+
+	p {
+		font-family: 'Calluna Regular';
+		font-size: 21px;
+		line-height: 30px;
+
+		span {
+			font-family: 'Calluna Bold';
+		}
+	}
+
+	button {
+		margin: 21px 0 56px 0;
+		background: #3c863c;
+		font-family: 'SF Pro Display Bold';
+		font-size: 19px;
+		line-height: 30px;
+		color: white;
+		border: 0px;
+    	border-radius: 50px;
+    	padding: 10px 67px;
+	}
+}

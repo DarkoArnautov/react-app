@@ -1,0 +1,75 @@
+@import '../../../common.scss';
+
+.btnframe {
+	border: 1px solid blue;
+	border-radius: 3px;
+	font-family: 'SF Pro Display Medium';
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 7px;
+	padding-bottom: 4px;
+	background: white;
+}
+
+.btnnoframe {
+	border: 0;
+	background: none;
+	font-family: 'SF Pro Display Medium';
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 7px;
+	padding-bottom: 4px;
+}
+
+.btn-green {
+	border-color: #038930 !important;
+	color: #038930;
+	
+	&:hover {
+		color: #0ea742;
+		border-color: #0ea742 !important;
+	}
+
+	&:active {
+		color: #037028;
+		border-color: #037028 !important;
+	}
+}
+
+.btn-black {
+	border-color: #111111 !important;
+	color: #111111;
+
+	&:hover {
+		color: #757575;
+		border-color: #757575 !important;
+	}
+
+	&:active {
+		color: #000000;
+		border-color: #000000 !important;
+	}
+}
+
+.btn-gray {
+	border-color: #757575 !important;
+	color: #757575;
+
+	&:hover {
+		color: #989898;
+		border-color: #989898 !important;
+	}
+
+	&:active {
+		color: #555555;
+		border-color: #555555 !important;
+	}
+}
+
+button {
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none !important;
+}
